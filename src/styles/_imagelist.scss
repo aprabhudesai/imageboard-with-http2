@@ -1,0 +1,10 @@
+.image-list {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  flex-flow: row wrap;
+
+  .img-list-item {
+    flex-basis: 20%;
+  }
+}
