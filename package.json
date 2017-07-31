@@ -25,7 +25,8 @@
         "react": "^15.6.1",
         "react-dom": "^15.6.1",
         "react-redux": "^5.0.5",
-        "redux": "^3.7.2"
+        "redux": "^3.7.2",
+        "spdy": "^3.4.7"
     },
     "devDependencies": {
         "babel": "^6.23.0",
