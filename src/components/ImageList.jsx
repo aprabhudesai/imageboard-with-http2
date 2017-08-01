@@ -10,10 +10,11 @@ class ImageList extends React.Component {
     const { count } = this.props;
     let imageList = [];
     for(let i = 0; i < count ; i++) {
+      let imageName = `/image/testpic${i+1}.png`;
       imageList.push(
         <li className="img-list-item" key={i}>
           <Image
-            imgSrc="https://a.thumbs.redditmedia.com/aa10Gl_i_uwP8wqzgx12eUNbhcOBVymtkpbpyWrmXU8.png"
+            imgSrc={imageName}
             imgHeight={100}
             imgWidth={80}
           />
