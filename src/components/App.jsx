@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return(
       <div className="image-app">
-        <ImageList count={10}/>
+        <ImageList count={70}/>
       </div>
     );
   }

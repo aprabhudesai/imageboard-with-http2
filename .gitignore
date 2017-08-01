@@ -3,3 +3,5 @@ dist
 server.crt
 server.csr
 server.key
+assets
+.DS_Store
